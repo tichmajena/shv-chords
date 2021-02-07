@@ -311,7 +311,7 @@ let harmonicMinorScales = [
 
 
   {
-    chordName = "g# Minor",
+    chorName = "g# Minor",
     chordKey = ["A," "B", "C"]
   },
 
@@ -346,8 +346,212 @@ let harmonicMinorScales = [
   },
 
 
-  {
+  
     chordName = "d Minor",
     chordKey = ["A," "B", "C"]
   },
 ]
+___________________________________
+
+let minorCords=[
+  {
+  
+     chordName = "D Minor",
+      chordKey = ["D1", "F1", "A1"]
+    },
+
+    {
+      chordName = "E Minor",
+      chordKey = ["E1", "G1", "B1"]
+    },
+
+    {
+      chordName = "A Minor",
+      chordKey = ["A1", "C2", "E2"]
+    },
+
+    {
+      chordName = "C Minor",
+      chordKey = ["C1", "D#", "G1"]
+    },
+
+    {
+      chordName = "f Minor",
+      chordKey = ["F1", "G#", "C2"]
+    },
+
+    {
+      chordName = "G Minor",
+      chordKey = ["G1", "A#", "D2"]
+    },
+
+    {
+      chordName = "C# Minor",
+      chordKey = ["C1", "E1", "G#"]
+    },
+
+    {
+      chordName = "F# Minor",
+      chordKey = ["F#", "A1", "C#"]
+    },
+
+    {
+      chordName = "Ab Minor",
+      chordKey = ["G#", "B1", "D#"]
+    },
+
+    {
+      chordName = "Eb Minor",
+      chordKey = ["D#", "F#", "A#"]
+    },
+
+    {
+      chordName = "Bb Minor",
+      chordKey = ["A#", "C#", "F2"]
+    },
+
+    {
+      chordName = "B Minor",
+      chordKey = ["B1", "D2", "F#"]
+    }
+]
+  
+let majorScale = [
+  {
+    chordName = "C Major",
+    chordKey = ["C1", "E1", "G1"]
+  },
+
+  {
+    chordName = "G Major",
+    chordKey = ["G1", "B1", "D1"]
+  },
+
+  {
+    chordName = "F Major",
+    chordKey = ["F1", "A1","C2"]
+  },
+
+  {
+    chordName = "D Major",
+    chordKey = ["D1", "F#", "A1"]
+  },
+
+  {
+    chordName = "Bb Major",
+    chordKey = ["A#", "D2", "F2"]
+  },
+
+  {
+    chordName = "A Major",
+    chordKey = ["A1", "C#", "E2"]
+  },
+
+  {
+    chordName = "Eb Major",
+    chordKey = ["D#", "G1", "A#"]
+  },
+
+
+  {
+    chordName = "E Major",
+    chordKey = ["E1", "G#", "B1"]
+  },
+
+
+  {
+    chordName = "Ab Major",
+    chordKey = ["G#", "C1", "D#"]
+  },
+
+
+  {
+    chordName = "B Major",
+    chordKey = ["B1", "D#", "F#"]
+  },
+
+
+  {
+    chordName = "F# Major",
+    chordKey = ["F#", "A#", "C#"]
+  },
+
+{   
+     chordName="C# Major",
+     chordKey=["C#", "F1", "G#"]
+}
+]
+
+let harmonicMinorScales = [
+  {
+    chordName = "a Minor",
+    chordKey = ["A1", "B1", "C2","D2","E2","F2","G#","A2"]
+  },
+
+  {
+    chordName = "e Minor",
+    chordKey = ["E1", "F#", "G1","A1","B1","C2","D#","E2"]
+  },
+
+
+  {
+    chordName = "b Minor",
+    chordKey = ["B1", "C#", "D2","E2","F#","G2","A#","B2"]
+  },
+
+
+  {
+    chordName = "f# Minor",
+    chordKey = ["F#", "G#", "A1","B1","C#","D2","G2","G#"]
+  },
+
+
+  {
+    chordName = "c# Minor",
+    chordKey = ["C#", "D#", "E1","F#","G#","A2","C2","C#"]
+  },
+
+
+  {
+    chorName = "g# Minor",
+    chordKey = ["F#", "G#", "A1","B1","C#","D2","F2","F#"]
+  },
+
+
+  {
+    chordName = "eb Minor",
+    chordKey = ["D#", "F1", "F#","G#","A#","B1","D2","D#"]
+  },
+
+
+  {
+    chordName = "Bb Minor",
+    chordKey = ["A#", "C2", "C#","D#","F2","F#","A2","A#"]
+  },
+
+
+  {
+    chordName = "f Minor",
+    chordKey = ["F1", "G1", "G#","A#","C2","C#","E2","F2"]
+  },
+
+
+  {
+    chordName = "c Minor",
+    chordKey = ["C2" "D2", "D#","F2","G2","G#","B2","C3"]
+  },
+
+
+  {
+    chordName = "g Minor",
+    chordKey = ["G1", "A1", "A#","C2","D2","D#","F#","G2"]
+  },
+
+
+  
+    chordName = "d Minor",
+    chordKey = ["D2","E2", "F2", "A2","A#","C#","D3"]
+  },
+]
+  
+  
