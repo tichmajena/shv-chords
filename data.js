@@ -87,33 +87,33 @@ console.log(fourChords);
 let majorCords = [
   {
     chordName = "C Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
   {
     chordName = "F Major",
-    chordKey = ["F," "G", "A"]
-  },
-____________________________________________________________________
-  {
-    chordName = "G Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["F", "G", "A"]
   },
 
   {
+    chordName = "G Major",
+    chordKey = ["A", "B", "C"]
+  },
+-----------------------------------
+  {
     chordName = "D Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
   {
     chordName = "E Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "A Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
@@ -124,232 +124,231 @@ ____________________________________________________________________
 
   {
     chordName = "Eb Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "Ab Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "F# Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
   {
     chordName = "B Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "Bb Major",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 ]
 
 let minorCords = [
     {
       chordName = "D Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "E Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "A Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "C Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "f Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "G Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "C# Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "F# Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "Ab Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "Eb Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "Bb Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 
     {
       chordName = "B Minor",
-      chordKey = ["A," "B", "C"]
+      chordKey = ["A", "B", "C"]
     },
 ]
 
 let majorScale = [
   {
     chordName = "C Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
   {
     chordName = "G Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
   {
     chordName = "F Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
   {
     chordName = "D Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
   {
     chordName = "Bb Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
   {
     chordName = "A Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
   {
     chordName = "Eb Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
 
   {
     chordName = "E Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
 
   {
     chordName = "Ab Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
 
   {
     chordName = "B Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
 
   {
     chordName = "F# Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 
 
   {
     chordName = "C# Major",
-    chordKey = ["C," "E", "G"]
+    chordKey = ["C", "E", "G"]
   },
 ]
 
 let harmonicMinorScales = [
   {
     chordName = "a Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
   {
     chordName = "e Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
-
 
   {
     chordName = "b Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "f# Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "c# Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chorName = "g# Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "eb Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "Bb Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "f Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "c Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
 
   {
     chordName = "g Minor",
-    chordKey = ["A," "B", "C"]
+    chordKey = ["A", "B", "C"]
   },
 
-
+{
   
     chordName = "d Minor",
-    chordKey = ["A," "B", "C"]
-  },
+    chordKey = ["A", "B", "C"]
+  }
 ]
 ___________________________________
 
@@ -372,47 +371,47 @@ let minorCords=[
 
     {
       chordName = "C Minor",
-      chordKey = ["C1", "D#", "G1"]
+      chordKey = ["C1", "D#1", "G1"]
     },
 
     {
       chordName = "f Minor",
-      chordKey = ["F1", "G#", "C2"]
+      chordKey = ["F1", "G#1", "C2"]
     },
 
     {
       chordName = "G Minor",
-      chordKey = ["G1", "A#", "D2"]
+      chordKey = ["G1", "A#1", "D2"]
     },
 
     {
       chordName = "C# Minor",
-      chordKey = ["C1", "E1", "G#"]
+      chordKey = ["C1", "E1", "G#1"]
     },
 
     {
       chordName = "F# Minor",
-      chordKey = ["F#", "A1", "C#"]
+      chordKey = ["F#1", "A1", "C#2"]
     },
 
     {
       chordName = "Ab Minor",
-      chordKey = ["G#", "B1", "D#"]
+      chordKey = ["G#1", "B1", "D#2"]
     },
 
     {
       chordName = "Eb Minor",
-      chordKey = ["D#", "F#", "A#"]
+      chordKey = ["D#1", "F#1", "A#1"]
     },
 
     {
       chordName = "Bb Minor",
-      chordKey = ["A#", "C#", "F2"]
+      chordKey = ["A#1", "C#2", "F2"]
     },
 
     {
       chordName = "B Minor",
-      chordKey = ["B1", "D2", "F#"]
+      chordKey = ["B1", "D2", "F#2"]
     }
 ]
   
@@ -434,124 +433,124 @@ let majorScale = [
 
   {
     chordName = "D Major",
-    chordKey = ["D1", "F#", "A1"]
+    chordKey = ["D1", "F#1", "A1"]
   },
 
   {
     chordName = "Bb Major",
-    chordKey = ["A#", "D2", "F2"]
+    chordKey = ["A#1", "D2", "F2"]
   },
 
   {
     chordName = "A Major",
-    chordKey = ["A1", "C#", "E2"]
+    chordKey = ["A1", "C#2", "E2"]
   },
 
   {
     chordName = "Eb Major",
-    chordKey = ["D#", "G1", "A#"]
+    chordKey = ["D#1", "G1", "A#1"]
   },
 
 
   {
     chordName = "E Major",
-    chordKey = ["E1", "G#", "B1"]
+    chordKey = ["E1", "G#1", "B1"]
   },
 
 
   {
     chordName = "Ab Major",
-    chordKey = ["G#", "C1", "D#"]
+    chordKey = ["G#1", "C1", "D#2"]
   },
 
 
   {
     chordName = "B Major",
-    chordKey = ["B1", "D#", "F#"]
+    chordKey = ["B1", "D#2", "F#2"]
   },
 
 
   {
     chordName = "F# Major",
-    chordKey = ["F#", "A#", "C#"]
+    chordKey = ["F#1", "A#1", "C#2"]
   },
 
 {   
      chordName="C# Major",
-     chordKey=["C#", "F1", "G#"]
+     chordKey=["C#1", "F1", "G#1"]
 }
 ]
 
 let harmonicMinorScales = [
   {
     chordName = "a Minor",
-    chordKey = ["A1", "B1", "C2","D2","E2","F2","G#","A2"]
+    chordKey = ["A1", "B1", "C2","D2","E2","F2","G#2","A2"]
   },
 
   {
     chordName = "e Minor",
-    chordKey = ["E1", "F#", "G1","A1","B1","C2","D#","E2"]
+    chordKey = ["E1", "F#1", "G1","A1","B1","C2","D#2","E2"]
   },
 
 
   {
     chordName = "b Minor",
-    chordKey = ["B1", "C#", "D2","E2","F#","G2","A#","B2"]
+    chordKey = ["B1", "C#1", "D2","E2","F#2","G2","A#2","B2"]
   },
 
 
   {
     chordName = "f# Minor",
-    chordKey = ["F#", "G#", "A1","B1","C#","D2","G2","G#"]
+    chordKey = ["F#1", "G#1", "A1","B1","C#2","D2","G2","G#2"]
   },
 
 
   {
     chordName = "c# Minor",
-    chordKey = ["C#", "D#", "E1","F#","G#","A2","C2","C#"]
+    chordKey = ["C#2", "D#2", "E1","F#3","G#3","A2","C2","C#3"]
   },
 
 
   {
     chorName = "g# Minor",
-    chordKey = ["F#", "G#", "A1","B1","C#","D2","F2","F#"]
+    chordKey = ["F#1", "G#1", "A1","B1","C#2","D2","F2","F#2"]
   },
 
 
   {
     chordName = "eb Minor",
-    chordKey = ["D#", "F1", "F#","G#","A#","B1","D2","D#"]
+    chordKey = ["D#1", "F1", "F#1","G#1","A#1","B1","D2","D#2"]
   },
 
 
   {
     chordName = "Bb Minor",
-    chordKey = ["A#", "C2", "C#","D#","F2","F#","A2","A#"]
+    chordKey = ["A#1", "C2", "C#2","D#2","F2","F#2","A2","A#2"]
   },
 
 
   {
     chordName = "f Minor",
-    chordKey = ["F1", "G1", "G#","A#","C2","C#","E2","F2"]
+    chordKey = ["F1", "G1", "G#1","A#1","C2","C#2","E2","F2"]
   },
 
 
   {
     chordName = "c Minor",
-    chordKey = ["C2" "D2", "D#","F2","G2","G#","B2","C3"]
+    chordKey = ["C2", "D2", "D#2","F2","G2","G#2","B2","C3"]
   },
 
 
   {
     chordName = "g Minor",
-    chordKey = ["G1", "A1", "A#","C2","D2","D#","F#","G2"]
+    chordKey = ["G1", "A1", "A#1","C2","D2","D#2","F#2","G2"]
   },
 
-
+{
   
     chordName = "d Minor",
-    chordKey = ["D2","E2", "F2", "A2","A#","C#","D3"]
-  },
+    chordKey = ["D2","E2", "F2", "A2","A#2","C#2","D3"]
+  }
 ]
   
   
