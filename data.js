@@ -10,79 +10,7 @@
 //
 // Add all Four Chords to an Array as above
 
-
-
-let majorCords = [
-  "C Major",
-  "F Major",
-  "G Major",
-  "D Major",
-  "E Major",
-  "A Major",
-  "C# Major",
-  "Eb Major",
-  "Ab Major",
-  "F# Major",
-  "B Major",
-  "Bb MAjor"
-]
-console.log(majorCords);
-
-let minorCords = [
-  "D Minor",
-  "E Minor",
-  "A Minor",
-  "C Minor",
-  "F Minor",
-  "G Minor",
-  "C# Minor",
-  "F# Minor",
-  "Ab Minor",
-  "Eb Minor",
-  "Bb Minor",
-  "B Minor"
-]
-console.log(minorCords);
-
-let majorScale = [
-  "C Major",
-  "G Major",
-  "F Major",
-  "D Major",
-  "Bb Major",
-  "A Major",
-  "Eb Major",
-  "E Major",
-  "Ab Major",
-  "B Major",
-  "F# Major",
-  "C# MAjor"
-]
-console.log(majorScale);
-
-let harmonicMinorScales = [
-  "a Minor",
-  "e Minor",
-  "b Minor",
-  "f# Minor",
-  "c# Minor",
-  "g# Minor",
-  "eb Minor",
-  "Bb Minor",
-  "f Minor",
-  "c Minor",
-  "g Minor",
-  "d Minor"
-]
-console.log(harmonicMinorScales);
-let fourChords = [
-  "C Major",
-  "G Major",
-  "A Major",
-  "F Major"
-]
-console.log(fourChords);
-let minorScale =[
+let minorChords =[
   {
   
      chordName = "D Minor",
@@ -145,7 +73,7 @@ let minorScale =[
     }
 ]
   
-let majorScale = [
+let majorChords = [
   {
     chordName = "C Major",
     chordKey = ["C1", "E1", "G1"]
@@ -282,5 +210,92 @@ let harmonicMinorScales = [
     chordKey = ["D2","E2", "F2", "A2","A#2","C#2","D3"]
   }
 ]
+  
+  let majorScales =[
+    {
+      scaleName = "C Major",
+      scaleKey = ["C2","D2","E2","F2","G2","A2","B2","C2"]
+    },
+    
+    {
+      scaleName = "G Major",
+      scaleKey = ["G1","A1","B1","C2","D2","E2","F#2","G2"]
+    },
+    
+    {
+      scaleName = "F Major",
+      scaleKey = ["F1","G1","A1","A#1","C2","D2","E2","F2"]
+    },
+    
+    {
+      scaleName = "D Major",
+      scaleKey = ["D1","E1","F#2","G2","A2","B2","C#2","D2"]
+    },
+  
+  
+    {
+      scaleName = "Bb Major",
+      scaleKey = ["A#1","C2","D2","D#2","F2","G2","A2","A#2"]
+    },
+    
+    {
+      scaleName = "A Major",
+      scaleKey = ["A1","B1","C#2","D2","E2","F#2","G#2","A2"]
+    },
+    
+    {
+      scaleName = "Eb Major",
+      scaleKey = ["D#1","F1","G1","G#1","A#1","C2","D2","C2D#2"]
+    },
+    
+    {
+      scaleName = "E Major",
+      scaleKey = ["E2","F#1","F#1","A1","B1","C#2","D#2","E2"]
+    },
+    
+    {
+      scaleName = "Ab Major",
+      scaleKey = ["G#1","A#1","C2","C#2","D#2","F2","G2","G#2"]
+    },
+    
+    {
+      scaleName = "B Major",
+      scaleKey = ["B1","C#2","D#2","E2","F#2","G#2","A#2","B2"]
+    },
+    
+    {
+      scaleName = "F# Major",
+      scaleKey = ["F#1","G#1","A#1","B1","C#2","D#2","F2","C2F#2"]
+    },
+    
+    {
+      scaleName = "C# Major",
+      scaleKey = ["C#2","D#2","F2","F#2","G#2","A#2","F3","F#3"]
+    }
+    ]
+    
+    let fourChords = [
+      {
+        chordName = "C Major",
+        chordKey = ["C1", "C2","E2","G2"]
+      },
+      
+      {
+        cordsName = "G Mjor",
+        cordKey = ["B1", "C2", "D2", "G2"]
+      },
+        
+      {
+        cordName = "A Major",
+        cordKey = ["A1", "C2", "E2", "G2"]
+      },
+          
+      {
+         cordName = "F Major"
+         cordKey = ["F1", "C2","F2", "G2"]
+       }
+            
+      ]
+    
   
   
